@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="html5shiv.min" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/lib/html5shiv/html5shiv-printshiv.js" />
+        <item url="file://$PROJECT_DIR$/lib/html5shiv/html5shiv.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/lib/html5shiv/html5shiv.min.js" />
+      <root url="file://$PROJECT_DIR$/lib/html5shiv/html5shiv-printshiv.min.js" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/lib/html5shiv/html5shiv.js" />
+      <root url="file://$PROJECT_DIR$/lib/html5shiv/html5shiv-printshiv.js" />
+    </SOURCES>
+  </library>
+</component>
