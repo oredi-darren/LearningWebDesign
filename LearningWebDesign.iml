@@ -6,6 +6,9 @@
       <excludeFolder url="file://$MODULE_DIR$/chapter4" />
       <excludeFolder url="file://$MODULE_DIR$/chapter5" />
       <excludeFolder url="file://$MODULE_DIR$/chapter6" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter7" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter8" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter9" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
