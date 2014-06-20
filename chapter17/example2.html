@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        a.smooth {
+            display: block;
+            text-decoration: none;
+            text-align: center;
+            padding: 1em 2em;
+            width: 10em;
+            border-radius: 1.5em;
+            color: gray;
+            background-color: whitesmoke;
+            transition-property: background-color;
+            transition-duration: 0.3s;
+        }
+
+        a.ease {
+            transition-timing-function: ease;
+        }
+
+        a.linear {
+            transition-timing-function: linear;
+        }
+
+        a.ease-in {
+            transition-timing-function: ease-in;
+        }
+
+        a.ease-out {
+            transition-timing-function: ease-out;
+        }
+
+        a.ease-in-out {
+            transition-timing-function: ease-in-out;
+        }
+
+        a.steps_start {
+            transition-timing-function: steps(10, start);
+        }
+
+        a.steps_end {
+            transition-timing-function: steps(10, end);
+        }
+
+        a.step_start {
+            transition-timing-function: step_start;
+        }
+
+        a.step_end {
+            transition-timing-function: step_end;
+        }
+
+        a.smooth:hover, a.smooth:focus {
+            background-color: cornflowerblue;
+        }
+    </style>
+</head>
+<body>
+    <a href="#" class="smooth ease">ease</a>
+    <a href="#" class="smooth linear">linear</a>
+    <a href="#" class="smooth ease-in">ease-in</a>
+    <a href="#" class="smooth ease-out">ease-out</a>
+    <a href="#" class="smooth ease-in-out">ease-in-out</a>
+    <a href="#" class="smooth cubic-bezier">cubic-bezier</a>
+    <a href="#" class="smooth steps_start">steps_start</a>
+    <a href="#" class="smooth steps_end">steps_end</a>
+    <a href="#" class="smooth step_start">step_start</a>
+    <a href="#" class="smooth step_end">step_end</a>
+</body>
+</html>

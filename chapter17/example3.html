@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        a.smooth {
+            display: block;
+            text-decoration: none;
+            text-align: center;
+            padding: 1em 2em;
+            width: 10em;
+            border-radius: 1.5em;
+            color: gray;
+            background-color: whitesmoke;
+            transition-property: opacity;
+            transition-duration: .05s;
+            transition-timing-function: ease-out;
+        }
+
+        a.s5 {
+            transition-delay: .05s;
+        }
+
+        a.s4 {
+            transition-delay: .04s;
+        }
+
+        a.s3 {
+            transition-delay: .03s;
+        }
+
+        a.s2 {
+            transition-delay: .02s;
+        }
+
+        a.s1 {
+            transition-delay: .01s;
+        }
+
+        a.smooth:hover, a.smooth:focus {
+            background-color: cornflowerblue;
+        }
+
+        a.smooth:active {
+            opacity: 0;
+        }
+    </style>
+</head>
+<body>
+    <a href="#" class="smooth s5">.05s</a>
+    <a href="#" class="smooth s4">.04s</a>
+    <a href="#" class="smooth s3">.03s</a>
+    <a href="#" class="smooth s2">.02s</a>
+    <a href="#" class="smooth s1">.01s</a>
+</body>
+</html>
